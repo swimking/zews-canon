@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Login</title>
+		<meta name="description" content="Visual feedback for password strength on an image that gets pixelated or blurred." />
+		<meta name="keywords" content="password strength, visual feedback, image, canvas, javascript, css, blur, pixelated" />
+		<meta name="author" content="Codrops" />
+		
+		<link rel="stylesheet" type="text/css" href="base.css" />
+		
+	</head>
+	<body class="demo-1 loading">
+		
+			
+		
+		<main>
+			<div class="content content--side">
+				<header class="codrops-header">
+					
+					<br><br><br><h1 class="codrops-header__title"><p id="get">Get Started With</p> <p id="hit">HIT UPON IT<p></h1>
+					
+				</header>
+				<form class="form" action="signup.php" method="post">
+					<div class="form__item">
+						<label class="form__label" for="email" id="	username">User Name</label>
+						<input class="form__input" type="text" name="username" id="name">
+					</div>
+
+								<div class="form__item">
+						<label class="form__label" for="email" id="email">Email</label>
+						<input class="form__input" type="text" name="email" id="name">
+					</div>
+					<div class="form__item">
+						<label class="form__label" for="email">Phone Number</label>
+						<input class="form__input" type="Phone" name="email" id="email">
+					</div>
+					<div class="form__item">
+						<label class="form__label" for="password">Password</label>
+						<div class="form__input-wrap">
+							<input class="form__input" type="password" name="password" id="password">
+							<p class="form__password-strength" id="strength-output"></p>
+						</div>
+					</div>
+					<div class="form__item form__item--actions">
+						<span>Already have an account? <a class="form__link" href="#">Login here</a></span>
+						<button type="submit" id="but"><input class="form__button" type="button" name="signup" value="Signup"></button>
+					</div>
+				</form>
+			</div>
+			<div class="content content--side">
+				<div class="poster" style="background-image:url(img/walker.jpg)"></div>
+				<div class="canvas-wrap">
+					<canvas></canvas>
+				</div>
+				<nav class="demos">
+					<a class="demo demo--current" href="index.html"><span>Feel the Vibe</span></a>
+					<a class="demo" href="index2.html"><span>Enjoy the platform</span></a>
+				</nav>
+				<a class="github" href="https://github.com/codrops/PasswordStrengthVisualization/" title="Find this project on GitHub"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a>
+			</div>
+		</main>
+		
+	</body>
+</html>
