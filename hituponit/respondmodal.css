@@ -1,0 +1,128 @@
+@media(max-width: 360px){
+
+
+	#popup-content2{
+			position: absolute;
+			position: fixed;
+			top: 60%;
+			left: 50%;
+			border-radius: 10px;
+			background: -webkit-linear-gradient(left,0CCFF,#0066FF);
+			width: 300px;
+			height: 300px;
+			transform: translate(-50%, -50%);
+			visibility: hidden;
+		
+			padding: 20px;
+
+
+	}
+
+	#textbox{
+     	border:0px;
+     	border-bottom: 2px solid #00CCFF;
+     	width: 200px;
+     	padding: 20px;
+        color: white;
+        outline: none;
+        margin-top: 70px;
+        outline: none;
+     	font-family: segoe ui light;
+     	font-weight: bolder;
+        background: transparent;
+
+     }
+}
+@media(max-width:384px){
+	#popup-content2{
+		position: absolute;
+		position: fixed;
+		top: 60%;
+		left: 50%;
+		border-radius: 10px;
+		background: -webkit-linear-gradient(left,0CCFF,#0066FF);
+		width: 300px;
+		height: 300px;
+		transform: translate(-50%, -50%);
+		visibility: hidden;
+		
+		padding: 20px;
+
+
+}
+
+#textbox{
+	 border:0px;
+	 border-bottom: 2px solid #00CCFF;
+	 width: 200px;
+	 padding: 20px;
+	color: white;
+	outline: none;
+	margin-top: 70px;
+	outline: none;
+	 font-family: segoe ui light;
+	 font-weight: bolder;
+	background: transparent;
+
+ }
+}
+@media(max-width:412px){
+	#popup-content2{
+		position: absolute;
+		position: fixed;
+		top: 60%;
+		left: 50%;
+		border-radius: 10px;
+		background: -webkit-linear-gradient(left,0CCFF,#0066FF);
+		width: 300px;
+		height: 300px;
+		transform: translate(-50%, -50%);
+		visibility: hidden;
+	
+		padding: 20px;
+
+
+}
+
+#textbox{
+	 border:0px;
+	 border-bottom: 2px solid #00CCFF;
+	 width: 200px;
+	 padding: 20px;
+	color: white;
+	outline: none;
+	margin-top: 70px;
+	outline: none;
+	 font-family: segoe ui light;
+	 font-weight: bolder;
+	background: transparent;
+
+ }
+}
+@media(max-width:600px){
+	#popup-content2{
+		position: absolute;
+		position: fixed;
+		top: 60%;
+		left: 40%;
+		
+		border-radius: 10px;
+		background: -webkit-linear-gradient(left,0CCFF,#0066FF);
+		width: 400px;
+		height: 300px;
+		transform: translate(-50%, -50%);
+		visibility: hidden;
+		
+		padding: 20px;
+
+
+}
+
+#textbox{
+
+	width: 200px;
+	
+
+}
+
+}

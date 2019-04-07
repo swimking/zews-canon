@@ -2,7 +2,7 @@ html, body{
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	background: -webkit-linear-gradient(left,#00CCFF,#0066FF);
+	background: -webkit-linear-gradient(left,darkblue,#0066FF);
 }
 #top-pannel{
 	padding: 20px;
@@ -12,10 +12,7 @@ html, body{
 	font-weight: bolder;
 
 }
-/*...................................................................................
-------------------The best css writer in the world-----------------------------------
-------------------                                -----------------------------------
-*/
+
 .main-section{
 
     width: 100%;
@@ -47,10 +44,11 @@ html, body{
 
 	
 }
+
 #login-buton{
 	background: transparent;
 	border:2px solid white;
-	padding: 10px 30px;
+	padding: 10px 50px;
 	color: white;
 	font-family: calibri light;
 	border-radius: 10px 10px 2px;
@@ -58,7 +56,7 @@ html, body{
 }
 #signup-buton{
 	background: white;
-	padding: 10px 30px;
+	padding: 10px 50px;
 	color: blue;
 	font-weight: bolder;
 	font-family: calibri light;

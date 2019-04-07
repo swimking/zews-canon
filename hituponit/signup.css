@@ -3,7 +3,7 @@ html, body{
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	background: -webkit-linear-gradient(top,blue,#00CCFF);
+	background: -webkit-linear-gradient(right,blue,#00CCFF);
 }
 #top-pannel{
 	padding: 20px;
@@ -39,6 +39,7 @@ html, body{
 	padding: 20px;
 	background: white;
 	border:0px;
+	outline:none;
 	font-family: calibri light;
 	font-size: 14px;
 	color: #00CCFF;
@@ -53,27 +54,42 @@ margin: 10px;
 #col3{
 margin: 10px;	
 }
+#col1 select{
+	width: 240px;
+	padding: 20px;
+	background: white;
+	border:0px;
+	font-family: calibri light;
+	font-size: 14px;
+	color: #00CCFF;
+	border-radius: 2px 20px 2px;
+}
 #submit-button{
-	background: -webkit-linear-gradient(right,blue,#00CCFF);
-	padding: 10px 30px;
+	background: -webkit-linear-gradient(left,blue,darkblue);
+	padding: 10px 50px;
 	color: white;
 	font-size: 20px;
 	font-family: calibri light;
-	border-radius: 2px 10px 10px ;
+	border-radius: 2px 10px 10px;
 	border: 0px;
+	width: 200px;
 }
+
 @media(max-width: 360px){
 	.main-section{
 	width: 100%;
+	height: 100%;
 	display: -webkit-box;
 	-webkit-box-orient:vertical;
 	-webkit-box-pack:center;
 
 }
+
 }
 @media(max-width: 800px){
 	.main-section{
 	width: 100%;
+	height: 100%;
 	display: -webkit-box;
 	-webkit-box-orient:vertical;
 	-webkit-box-pack:center;
@@ -88,4 +104,5 @@ margin: 10px;
 	border-radius: 2px 10px 10px ;
 	border: 0px;
 }
+
 }

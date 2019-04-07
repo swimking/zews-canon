@@ -1,0 +1,160 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+#top-pannel{
+	padding: 10px;
+	text-align: center;
+}
+#top-pannel li{
+	list-style: none;
+	padding: 10px;
+}
+#hit-logo{
+	font-size: 30px;
+	color: #00CCFF;
+	font-family: segoe ui light;
+	font-weight: bolder;
+}
+.directional_buttons{
+			text-decoration: none;
+			background: -webkit-linear-gradient(right,blue,#00CCFF);
+			color: white;
+			border-radius:  1px 20px 20px;
+			font-family: segoe ui light;
+			font-weight: bolder;
+			padding: 10px 40px;
+			border: 0px;
+			width: 350px;
+}
+.content_block{
+		width: 100%;
+    	margin-bottom: 5px;
+    	display: block;
+    	text-align: center;
+}
+ #question-container{
+    	background: lightgrey;
+    	color: black;
+    	width: 70%;
+    	display: inline-table;
+    	height: fit-content;
+    	padding: 20px;
+    	word-wrap: break-word;
+    	text-align: center;
+    	border-radius:  1px 20px 20px;
+    	margin: 20px;
+    	font-family: segoe ui light;
+    	font-size: 16px;
+    	font-weight: bolder;
+
+    }
+
+    #poster-details-panel{
+	padding: 10px;
+
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    }
+    #pic-column img{
+    	border-radius: 100%;
+    	border:2px solid #00CCFF;
+    	-webkit-box-shadow:rgb(100, 100, 100) 10px 10px 10px;
+
+    }
+    #name-column{
+    	font-family: segoe ui light;
+		font-size: 14px;
+		color: #00CCFF;
+		font-weight: bolder;
+    }
+    #post-time-column{
+    	font-family: segoe ui light;
+		font-size: 14px;
+		color: grey;
+		font-weight: bolder;
+    }
+    #solution-button-container{
+    	padding: 10px;
+    	height: 70px;
+    }
+    .solutions_container{
+
+    	padding: 10px;
+    	text-align: center;
+    	background: #fbfbfb;
+    	margin-bottom: 5px;
+    }
+    .sender_details img{
+      width: 40px;
+      height: 40px;
+    }
+    #solution_container{
+
+    	background: #f1f1f1;
+    	color: black;
+    	width: 70%;
+    	display: inline-table;
+    	height: fit-content;
+    	padding: 20px;
+    	word-wrap: break-word;
+    	text-align: center;
+    	border-radius:  1px 20px 20px;
+    	margin: 20px;
+    	font-family: segoe ui light;
+    	font-size: 16px;
+    	font-weight: bolder;
+
+    }
+    #reactions-panel{
+    	font-family: segoe ui light;
+    	font-size: 14px;
+
+
+    }
+     #reactions-panel a{
+     	text-decoration: none;
+     	color: black;
+     	font-weight: bolder;
+     }
+     .contribution_content_container{
+     	padding: 10px;
+     	height: 80px;
+     	
+
+     }
+     #textbox{
+     	border:0px;
+     	border-bottom: 2px solid #00CCFF;
+     	width: 400px;
+     	padding: 20px;
+     	font-family: segoe ui light;
+		 font-weight: bolder;
+		 word-wrap: break-word;
+		 outline: none;
+
+     }
+     #send_button{
+     	background: transparent;
+     	color: #00CCFF;
+     	border:0px;
+     	font-size: 25px;
+     	font-weight: bolder;
+
+     }
+     @media(max-width: 360px){
+ 			 #textbox{
+     				border:0px;
+     				border-bottom: 2px solid #00CCFF;
+     				width: 200px;
+     				padding: 20px;
+     				outline: none;
+     				font-family: segoe ui light;
+     				font-weight: bolder;
+     				position: relative;
+
+     				}
+
+     }
