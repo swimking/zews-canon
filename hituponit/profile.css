@@ -1,24 +1,69 @@
 html, body{
 	margin:0px;
 	height: 100%;
+	padding: 0px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 #top-header{
-	padding: 10px;
-	font-family: segoe ui light;
-    font-weight: bolder;
-    color:  #00CCFF;
-    font-size: 30px;
+
+	font-family: calibri light;
+   
+	color:  #00CCFF;
+	height: 58px;
+	padding: 1px;
+	font-size: 19px;
+	background: -webkit-linear-gradient(left,darkblue,#0066FF);
+	text-align: center;
 }
 #top-header a{
 	text-decoration: none;
-	color:  #00CCFF;
+	color:  white;
 }
+#top-header svg{
+	fill: white;
+	width: 30px;
+	height: 20px;
+	float: left;
+	
+}
+#top-header li{
+	display: inline-block;
+}
+.image_holder{
+	
+	text-align: center;
+	
+}
+.image_holder img{
+	width: 130px;
+	height: 130px;
+	margin-top: -50px;
+	border-radius: 100%;
+	border: 2px solid #0066FF;
+	object-fit: cover;
+	object-position: top;
 
+
+}
+.name_container{
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 20px;
+}
+.blue{
+	background: -webkit-linear-gradient(left,darkblue,#0066FF);
+	height: 10%;
+}
 #page-intro-container{
 	padding: 10px;
 	height: 40px;
 
+}
+#chevron{
+	float: left;
+	margin-left: -28px;
 }
 
 #my-profile-note{
@@ -32,9 +77,11 @@ html, body{
 	font-weight: bolder;
 
 }
-.profile-section{
+.status_container{
 	
-
+	padding: 5px;
+	font: 400;
+	
 }
 .content-container{
 	
@@ -43,10 +90,70 @@ html, body{
 	margin:auto;
 	padding: 20px;
 }
+.status_text{
+	padding: 5px;
+	color: blue;
+}
+.cards{
+	padding: 20px;
+	margin: 20px;
+	background: white;
+	box-shadow: 10px 10px 10px #0066FF;
+	border-radius: 8px;
+}
+.cards1{
+	padding: 20px;
+	margin: 20px;
+	background: white;
+	
+	border-radius: 8px;
+}
+.cards table{
+	width: 100%;
+}
+.cards table td{
+	
+	width: 150px;
+}
+.number{
+	font-size: 25px;
+	color: #0066FF;
+}
+.text{
+	color: black;
+	font-weight: 600;
+}
+
+.edit_profile_container{
+	padding: 10px;
+	text-align: center;
+	
+}
+.edit_profile_container table{
+		background: yellow;
+		align-self:middle;
+}
+.edit_profile_container svg{
+	width: 20px;
+}
+.link{
+	padding: 10px 30px;
+	border: 2px solid #0066FF;
+	text-decoration: none;
+	color: #0066FF;
+	border-radius: 90px;
+}
 .profile-section{
 	display: -webkit-box;
 	-webkit-box-orient:horizontal;
 
+}
+.online_aleart{
+	border-radius: 100%;
+	margin-top: -20px;
+	padding: 4px;
+	border: 0px;
+	background:#0066FF;
 }
 #pic-containment{
 
@@ -133,14 +240,10 @@ html, body{
 }
 .edit-profile-section{
 	padding: 10px;
-	visibility: hidden;
+	
 
 }
-#details-form{
-	display: -webkit-box;
-	-webkit-box-orient:horizontal;
-	-webkit-box-pack:center;
-}
+
 #colm1{
 	padding: 10px;
 }
@@ -165,7 +268,7 @@ input{
 	   outline: none;
 	    border:0px;
      	border-bottom: 2px solid #00CCFF;
-     	width: 300px;
+     	width: 150px;
      	padding: 20px;
      	font-family: segoe ui light;
      	font-weight: bolder;
@@ -177,7 +280,7 @@ input{
 	color: white;
 	border-radius: 20px;
 	border:0px;
-	width: 340px;
+	width: 200px;
 }
 #edit-profile-section:target{
 	visibility: visible;

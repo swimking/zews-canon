@@ -12,6 +12,10 @@ html, body{
 	
 
 }
+#top_header svg{
+	fill: white;
+	
+}
 #logo{
 	font-family: segoe ui light;
 	font-size: 23px;
@@ -41,7 +45,7 @@ html, body{
 #navigation-menu{
 	/*background: -webkit-linear-gradient(top,#00CCFF,#0066FF);*/
 		padding: 3px;
-		overflow-x: auto;
+	
 	
 	
 }
@@ -81,6 +85,16 @@ html, body{
 	border: 2px solid #00CCFF;
 	border-radius:  20px 20px 1px;
 	text-decoration: none;
+}
+
+
+#quick_links td{
+
+	width:100px;
+	padding: 5px;
+}
+th td{
+	padding: 20px;
 }
 /*
 ====================css for modals starts here=========================
@@ -164,6 +178,7 @@ html, body{
 =======================css for modals ends here======================================================
 
 */
+
 	@media(max-width: 360px){
 		
 		#popup-content{
@@ -550,6 +565,7 @@ th, td {
 		width: 100%;
 		position: fixed;
 		bottom: 0px;
+		padding: 0px;
 		background: -webkit-linear-gradient(left,darkblue,#00CCFF);
 	}
 	#right{
@@ -564,6 +580,7 @@ th, td {
 	#Layer_1{
 		fill: white;
 		width:30px;
+		height: 30px;
 		font-size: 10px;
 	}
 	svg{
@@ -573,18 +590,18 @@ th, td {
 	
 	}
 	#quick_links{
-		margin-left: 20px;
+		margin-left: 10px;
 	}
 	#quick_links th, td{
 	
-			padding: 5px;
+			padding: 4px;
 			text-align: center;
 	}
 	#quick_links a{
 		text-decoration: none;
 		color: white;
-		font-family: arial;
-		font-size: 13px;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-size: 12px;
 		
 	
 	}
@@ -616,13 +633,11 @@ th, td {
 			visibility: visible;
 			display: block;
 		}
-		svg{
-			width:150px;
 		
-		}
 
-		#quick-links a{
-			font-size: 25px;
+		#quick_links a{
+			font-size: 20px;
+			color:white;
 		}
 		#reactions-panel{
 			font-size: 25px;
@@ -630,9 +645,36 @@ th, td {
 		#poster-details-panel a{
 			font-size: 25px;
 		}
-	
-	}
+		#quick_links td{
 
+			width:90px;
+			padding: 10px;
+		}
+		#quick_links svg{
+			width:100px;
+			height: 45px;
+			fill:white;
+		}
+		th td{
+			padding: 20px;
+		}
+	}
+@media(width:320px){
+	#quick_links td{
+
+		width:40px;
+	
+		
+	}
+	#quick_links svg{
+		width: 20px;
+		height: 20px;
+		fill:white;
+	}
+	#quick_links{
+		margin-left: -8px;
+	}
+}
 	@media(width:800px){
 		#logo{
 			font-family: segoe ui light;
@@ -660,7 +702,7 @@ th, td {
 		
 		}
 
-		#quick-links a{
+		#quick_links a{
 			font-size: 25px;
 		}
 		#reactions-panel{
@@ -668,6 +710,22 @@ th, td {
 		}
 		#poster-details-panel a{
 			font-size: 25px;
+		}
+		#quick_links{
+			width:100vw;
+		}
+		#quick_links td{
+
+			width:90px;
+			padding: 10px;
+		}
+		#quick_links svg{
+			width:150px;
+			height: 60px;
+			fill:white;
+		}
+		th td{
+			padding: 20px;
 		}
 	
 	}
@@ -712,6 +770,29 @@ th, td {
 		#poster-details-panel a{
 			font-size: 25px;
 		}
+		#quick_links a{
+			font-size: 20px;
+			color:white;
+		}
+		#reactions-panel{
+			font-size: 25px;
+		}
+		#poster-details-panel a{
+			font-size: 25px;
+		}
+		#quick_links td{
+
+			width:90px;
+			padding: 10px;
+		}
+		#quick_links svg{
+			width:100px;
+			height: 45px;
+			fill:white;
+		}
+		#quick_links{
+			width:100vw;
+		}
 	
 	}
 	@media(width:1024px){
@@ -749,6 +830,30 @@ th, td {
 		}
 		#poster-details-panel a{
 			font-size: 25px;
+		}
+		#quick_links a{
+			font-size: 20px;
+			color:white;
+		}
+		#reactions-panel{
+			font-size: 25px;
+		}
+		#poster-details-panel a{
+			font-size: 25px;
+		}
+		#quick_links td{
+
+			width:20px;
+			
+		
+		}
+		#quick_links svg{
+			width: 90px;
+			height: 50px;
+			fill:white;
+		}
+		#quick_links{
+			width: 100vw;
 		}
 	
 	}
